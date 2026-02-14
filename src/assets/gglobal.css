@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    margin: 0;
+    display: flex;
+  flex-direction: column; /* ou row, se preferir */
+}
+
+.container-ReposList{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loading-container{
+;
+    text-align: center;
+}
+.container-ReposList-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
