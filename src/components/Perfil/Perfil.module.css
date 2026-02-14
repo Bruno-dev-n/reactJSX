@@ -1,0 +1,53 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4f129e96;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(88, 25, 25, 0.1);
+}
+.input {
+    width:250px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: greenyellow
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border:6px solid transparent;
+    background: linear-gradient(270deg, palevioletred, greenyellow) border-box;
+    background-size: 200% 200%; 
+    animation: borderAnim 5s ease infinite; 
+}
+
+@keyframes borderAnim { 
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; } 
+    100% { background-position: 0% 50%; }}
+
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace sans-serif;
+    width: 690px;
+    text-align: center;
+}
+.tituloNomeUsuario{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
